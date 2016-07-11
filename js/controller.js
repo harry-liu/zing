@@ -37,6 +37,7 @@ zingControllers.controller('WorksCtrl', function($scope,$timeout,$rootScope) {
       $scope.film = 'unselected';
       $scope.branding = 'unselected';
       $scope.illustration = 'unselected';
+      $scope.website = 'unselected';
 
       switch ($rootScope.selectedTag) {
           case 'all':
@@ -54,6 +55,9 @@ zingControllers.controller('WorksCtrl', function($scope,$timeout,$rootScope) {
           case 'illustration':
               $scope.illustration = 'selected';
               break;
+          case 'website':
+              $scope.website = 'selected';
+              break;
           default:
               break;
       }
@@ -65,6 +69,7 @@ zingControllers.controller('WorksCtrl', function($scope,$timeout,$rootScope) {
       $scope.film = 'unselected';
       $scope.branding = 'unselected';
       $scope.illustration = 'unselected';
+      $scope.website = 'unselected';
     }
   }
 
@@ -74,6 +79,7 @@ zingControllers.controller('WorksCtrl', function($scope,$timeout,$rootScope) {
     $scope.film = 'unselected';
     $scope.branding = 'unselected';
     $scope.illustration = 'unselected';
+    $scope.website = 'unselected';
     switch (tag) {
         case 'all':
             $timeout(function(){$scope.all = 'selected'},600);
@@ -94,6 +100,10 @@ zingControllers.controller('WorksCtrl', function($scope,$timeout,$rootScope) {
         case 'illustration':
             $timeout(function(){$scope.illustration = 'selected'},600);
             setRootScopeTag('illustration');
+            break;
+        case 'website':
+            $timeout(function(){$scope.website = 'selected'},600);
+            setRootScopeTag('website');
             break;
         default:
             break;
@@ -375,6 +385,15 @@ zingControllers.controller('Work12Ctrl', function($scope) {
 });
 
 zingControllers.controller('Work13Ctrl', function($scope) {
+  $('html').css({
+    'overflow': 'auto',
+    'height': 'auto'
+  });
+  document.getElementById("logo").src = "img/logo.png"
+  document.body.style.backgroundImage = "url('')";
+});
+
+zingControllers.controller('Work14Ctrl', function($scope) {
   $('html').css({
     'overflow': 'auto',
     'height': 'auto'

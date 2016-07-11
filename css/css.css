@@ -1573,3 +1573,276 @@ ul{
     z-index: 10;
     width: 100%;
 }
+
+/*work 14*/
+.jmerit-container{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+	.jmerit-container{
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+.jmerit-logo-black{
+	float: left;
+	clear:both;
+}
+
+@media screen and (max-width: 768px) {
+	.jmerit-logo-black{
+		margin-top: 60px;
+	}
+}
+
+.jmerit-logo-black img{
+	width: 120px;
+	float:left;
+	margin-bottom: 30px;
+}
+
+.jmerit-logo-black p{
+	float: left;
+    font-size: 29px;
+    line-height: 38.797px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+	.jmerit-logo-black p{
+	    font-size: 20px;
+	}
+}
+
+.jmerit-title{
+    clear: both;
+    float: left;
+    font-weight: 700;
+    font-size: 46px;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.jmerit-title{
+	    font-size: 26px;
+	}
+}
+
+.jmerit-des{
+    float: left;
+    clear: both;
+    margin-top: 60px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+	.jmerit-des{
+	    font-size: 20px;
+	    margin-top: 20px;
+	}
+}
+
+.jmerit-white{
+	background-color: #eeeeee;
+}
+
+.jmerit-black{
+	background-color: #181818;
+}
+
+.section-1-img{
+	position: relative;
+	top:60px;
+	z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+	.section-1-img{
+		top:30px;
+	}
+}
+
+.section-2-img{
+    position: relative;
+    right: 43%;
+    margin-top: 15%;
+    width: 80%;
+    margin-bottom: -114px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+	.section-2-img{
+	    right: 0;
+	    top:80px;
+	    width: 100%;
+	    margin:0;
+	}
+}
+
+.section-2-1-img{
+    position: absolute;
+    right: 58%;
+    top: 17%;
+    width: 25%;
+    z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+	.section-2-1-img{
+	    display:none;
+	}
+}
+
+.shadow{
+	-webkit-box-shadow: 18px 27px 173px 20px rgba(0,0,0,0.26);
+	-moz-box-shadow: 18px 27px 173px 20px rgba(0,0,0,0.26);
+	box-shadow: 18px 27px 173px 20px rgba(0,0,0,0.26);
+}
+
+.section-2-words{
+	color:white;
+	text-align: left;
+	position: absolute;
+	left:60%;
+	top:35%;
+}
+
+@media screen and (max-width: 768px) {
+	.section-2-words{
+		position: relative;
+		float: left;
+		width:100%;
+		left:auto;
+		top:auto;
+		padding-top: 80px;
+		padding-bottom: 20px;
+	}
+}
+
+.jmerit-word-bb{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.jmerit-word-b{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+	.jmerit-word-bb{
+	    font-size: 25px;
+	    font-weight: 500;
+	}
+
+	.jmerit-word-b{
+	    font-size: 22px;
+	    font-weight: 400;
+	}
+}
+
+.jmerit-word{
+    font-size: 20px;
+}
+
+.section-3-img{
+    position: relative;
+    width: 36%;
+    left: 23%;
+    top: 42%;
+    margin-top: 5%;
+    z-index: 2;   
+    margin-bottom: -45px;
+}
+
+@media screen and (max-width: 768px) {
+	.section-3-img{
+	    position: relative;
+	    width: 100%;
+	    left: auto;
+	    top: auto;
+	    margin:0;
+	    float: left;
+	    padding-top: 20px;
+	}
+}
+
+.section-3-1-img{
+    position: absolute;
+    width: 28%;
+    top: 40%;
+    left: 40%;
+	z-index: 3;
+}
+
+@media screen and (max-width: 768px) {
+	.section-3-1-img{
+	    display: none;
+	}
+}
+
+.section-3-words{
+    color: black;
+    text-align: left;
+    position: absolute;
+    right: 61%;
+    top: 27%;
+}
+
+@media screen and (max-width: 768px) {
+	.section-3-words{
+	    color: black;
+	    text-align: left;
+	    position: relative;
+	    right: auto;
+	    top: auto;
+	    padding-bottom: 20px;
+	}
+
+}
+
+.logo-white{
+    width: 10%;
+    margin-top: 89px;
+    margin-bottom: 30px;
+}
+
+.thanks-watching{
+	color: white;
+	font-size: 25px;
+}
+
+.zing-logo{
+    width: 4%;
+    margin-bottom: 100px;
+    margin-top: 90px;
+}
+
+@media screen and (max-width: 768px) {
+	.logo-white{
+	    width: 10%;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+	.thanks-watching{
+		color: white;
+		font-size: 20px;
+	}
+
+	.zing-logo{
+	    width: 4%;
+	    margin-bottom: 30px;
+	    margin-top: 20px;
+	}
+}

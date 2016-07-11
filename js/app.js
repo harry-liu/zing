@@ -82,6 +82,10 @@ app.config(['$routeProvider', function($routeProvider) {
       templateUrl: 'work13.html',
       controller: 'Work13Ctrl'
     }).
+    when('/works/14', {
+      templateUrl: 'work14.html',
+      controller: 'Work14Ctrl'
+    }).
     otherwise({
       redirectTo: '/home'
     });
