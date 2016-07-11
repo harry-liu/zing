@@ -402,6 +402,24 @@ zingControllers.controller('Work14Ctrl', function($scope) {
   document.body.style.backgroundImage = "url('')";
 });
 
+zingControllers.controller('Work15Ctrl', function($scope) {
+  $('html').css({
+    'overflow': 'auto',
+    'height': 'auto'
+  });
+  document.getElementById("logo").src = "img/logo.png"
+  document.body.style.backgroundImage = "url('')";
+});
+
+zingControllers.controller('Work16Ctrl', function($scope) {
+  $('html').css({
+    'overflow': 'auto',
+    'height': 'auto'
+  });
+  document.getElementById("logo").src = "img/logo.png"
+  document.body.style.backgroundImage = "url('')";
+});
+
 zingControllers.controller('BackController', function($scope) {
   $(window).scroll(function() {
    document.getElementById("backToTop").style.display = "block";
